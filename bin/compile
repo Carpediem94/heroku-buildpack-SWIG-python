@@ -11,6 +11,7 @@ set -eo pipefail
 export PATH=:/usr/local/bin:$PATH
 
 echo "ciao"
+export PKG_CONFIG_PATH=/app/vendor/libffi-3.0/lib/pkgconfig/
 echo "$PKG_CONFIG_PATH"
 
 # Paths.
